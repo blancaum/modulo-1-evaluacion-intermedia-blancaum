@@ -8,6 +8,8 @@ html{
     font-size: 62.5%;
 }
 
+/*Blanca Ubis Martínez - Módulo 1 - Evaluación intermedia*/
+
 /*START header mobile version*/
 .header{
     display: flex;
@@ -15,6 +17,7 @@ html{
     align-items: center;
     width: 100%;
     position: fixed;
+    z-index: 100;
     top: 0;
     background-color: var(--color-title);
 }
