@@ -8,12 +8,13 @@ html{
     font-size: 62.5%;
 }
 
-/*START header*/
+/*START header mobile version*/
 .header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: sticky;
+    width: 100%;
+    position: fixed;
     top: 0;
     background-color: var(--color-title);
 }
@@ -40,9 +41,9 @@ html{
     text-transform:uppercase;
 }
 
-/*END header*/
+/*END header mobile version*/
 
-/*START main*/
+/*START main mobile version*/
 
 .main{
     background-color: var(--color-background);
@@ -61,4 +62,5 @@ html{
     width: min-content;
 }
 
-/*END main*/
+/*END main mobile version*/
+
