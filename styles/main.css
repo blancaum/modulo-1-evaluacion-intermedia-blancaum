@@ -25,11 +25,15 @@ html{
     margin-bottom: 10px;
 }
 
+.header-nav{
+    margin-bottom: 13px;
+}
+
 .header-nav-ul{
     display: flex;
     gap: 20px;
     justify-content: center;
-    margin-bottom: 13px;
+
 }
 
 .header-nav-link{
@@ -64,3 +68,25 @@ html{
 
 /*END main mobile version*/
 
+/*START tablet/PC version (min-width 768px)*/
+
+@media  all and (min-width:768px) {
+    .header{
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-logo-img{
+        margin: 20px 30px;
+    }
+    .header-nav{
+        margin-right: 30px;
+        margin-bottom: 0px;
+    }
+
+    .main-title{
+        font-size: 40px;
+    }
+}
+
+/*END tablet/PC version (min-width 768px)*/
