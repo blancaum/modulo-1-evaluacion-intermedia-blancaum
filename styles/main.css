@@ -13,6 +13,9 @@ html{
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: var(--color-title);
 }
 
 .header-logo-img{
@@ -43,13 +46,19 @@ html{
 
 .main{
     background-color: var(--color-background);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-title{
     font-family: 'Rubik', sans-serif;
     font-size: 3rem;
     font-weight: 700;
-    color:var(--color-title)
+    color:var(--color-title);
+    text-align: center;
+    width: min-content;
 }
 
 /*END main*/
