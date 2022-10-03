@@ -2,6 +2,8 @@
     --color-menu-text:#4a4a4a;
     --color-background:#3CDBC0;
     --color-title:#FFFFFF;
+
+    font-family: 'Rubik', sans-serif;
 }
 
 html{
@@ -40,7 +42,6 @@ html{
 }
 
 .header-nav-link{
-    font-family: 'Rubik', sans-serif;
     font-size: 1.6rem;
     font-weight: 400;
     color: var(--color-menu-text);
@@ -61,7 +62,6 @@ html{
 }
 
 .main-title{
-    font-family: 'Rubik', sans-serif;
     font-size: 3rem;
     font-weight: 700;
     color:var(--color-title);
