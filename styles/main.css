@@ -67,6 +67,7 @@ html{
     color:var(--color-title);
     text-align: center;
     word-spacing: 100vw;
+    text-transform: capitalize;
 }
 
 /*END main mobile version*/
